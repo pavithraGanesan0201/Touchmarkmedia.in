@@ -30,7 +30,7 @@ if($_POST['save'] == 'Register')   {
 	$tat_updatedon = $_POST['tat_updatedon'];
 	$tat_status = $_POST['tat_status'];
 	//Checking Existing Customer
-		$mobile_exist = $_POST['mobile_exist'];
+	$mobile_exist = $_POST['mobile_exist'];
 
 if($mobile_exist == 1) {
 	$err[] = "Mobile Number Already Exists";
